@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+@import url("font-awesome.min.css");
 
 /* Basic styling */
 * {
@@ -8,7 +9,7 @@
 }
 nav {
   background-color: #f7f8fc;
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   margin: 0;
 }
 nav {
@@ -178,8 +179,8 @@ a:hover {
   margin: 0;
 }
 
+/* CHANGE TO GRID */
 .container {
-  /* CHANGE TO GRID */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
