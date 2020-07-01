@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal Blog!">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="deepak khatri">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>flexear</title>
+</head>
+<body>
+  <header>
+      <nav>
+          <ul class="menu">
+            <li class="logo"><a href="#">FLEXEAR</a></li>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Blog</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item button"><a href="#">Contact</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+          </ul>
+      </nav>
+  </header>
+  <div class="blog">
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/rover.png" alt="rover" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-teal">Technology</span>
+          <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
+          <p>An exploration into the truck's polarising design.</p>
+          <div class="user">
+            <img src="./images/user-1.png" alt="user 1" />
+            <div class="user-info">
+              <h5>Carrie Brewer</h5>
+              <small>2h ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/ballons.png" alt="ballons" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-purple">Popular</span>
+          <h4>How to Keep Going When You Don't Know What's Next</h4>
+          <p>
+            The future can be scary, but there are ways to deal with that fear.
+          </p>
+          <div class="user">
+            <img src="./images/user-2.png" alt="user 2" />
+            <div class="user-info">
+              <h5>Jerome Walton</h5>
+              <small>Yesterday</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/city.png" alt="city" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-pink">Design</span>
+          <h4>10 Rules of Dashboard Design</h4>
+          <p>Dashboard Design Guidelines</p>
+          <div class="user">
+            <img src="./images/user-3.png" alt="user 3" />
+            <div class="user-info">
+              <h5>Lewis Daniels</h5>
+              <small>23 Dec 2019</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+  <script>
+    $(function() {
+    $(".toggle").on("click", function() {
+        if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+        } else {
+            $(".item").addClass("active");
+        }
+    });
+});
+  </script>    
+</body>
+</html>
