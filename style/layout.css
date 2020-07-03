@@ -97,3 +97,30 @@ article {
 @media screen and (min-width:978px){
 	.hoc{max-width:978px;}
 }
+
+/* Mobile Devices
+------------------------------------------------------------------------------------ */
+@media screen and (max-width:900px){
+	.hoc{max-width:90%;}
+}
+
+/*Tablet Devices
+------------------------------------------------------------*/
+@media screen and (max-width:750px){
+	.group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}
+	.one_half {display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
+
+	.sectiontitle{max-width:none;}
+	.container{padding-bottom:50px;}
+}
+
+
+/* Other
+------------------------------------------------------------------------------------ */
+@media screen and (max-width:650px){
+	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
+	.scrollable table{margin:0; padding:0; white-space:nowrap;}
+
+	.font-x1{font-size:1.4rem;}
+	.font-x2{font-size:1.6rem;}
+}
