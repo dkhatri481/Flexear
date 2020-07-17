@@ -33,6 +33,15 @@ body {
 	background-color:#252525;
 }
 
+.three {
+	background-color: white;
+}
+
+.end {
+	background-color: white;
+	color: black;
+}
+
 .btn {
 	display:inline-block; 
 	padding:8px 18px 10px; 

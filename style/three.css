@@ -1,0 +1,92 @@
+@import url("font-awesome.min.css");
+
+/*
+------------------------------------------*/
+.three {
+	background-color: white;
+}
+
+section, .slide {
+	text-align: center;
+}
+
+section.wrapper {
+	padding: 6em 0;
+	margin-bottom: 4em;
+	font-size: 1em;
+	margin: 0 0 .5em 0;
+}
+
+/* Flex */
+.flex {
+	display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	-ms-flex-pack: justify;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.flex.flex-2 {
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+}
+
+.flex.flex-2 .slide {
+	width: 50%;
+}
+
+@media screen and (max-width: 980px) {
+	.flex.flex-2 .slide {
+	width: 100%;
+	margin-bottom: 3em;
+}
+
+.flex.flex-2 .slide :last-child {
+	margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+.flex.flex-2 br {
+	display: none;
+	}
+}
+
+.button3 {
+	display:inline-block; 
+	padding:8px 18px 10px;
+	border-radius: 30px;
+	border: 0;
+	text-transform:uppercase; 
+	border:1px solid;
+}
+.button3, .button3.inverse:hover {
+	color:#FFFFFF; 
+	background-color:#57ADC4; 
+	border-color:#57ADC4;
+}
+
+.button3:hover, .button3.inverse {
+	color:inherit; 
+	background-color:transparent; 
+	border-color:inherit;
+}
+
+/*image round*/
+.image.round img {
+	border-radius: 100%;
+}
