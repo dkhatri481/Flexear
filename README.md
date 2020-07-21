@@ -5,8 +5,6 @@ Author:: DESIGNED & DEVELOPED by "Deepak khatri" */ there might be some issue in
 
 Each segment in the template is differentiated elegantly with the neat design elements. On the clean white background, the images and the texts are clearly visible. flexear is also mobile responsive so that all the elements and the texts are optimized for the mobile devices.
 
-With this template, you get neat icons, custom icons, and carousels. The call to action button uses a bright red color which easily manages to get visitors attention.
-
 ## feature
 - Google Fonts
 
@@ -14,5 +12,6 @@ With this template, you get neat icons, custom icons, and carousels. The call to
 We have used the following scripts, fonts or other files as listed.
 
 - Google Fonts
+- Unsplash Images
 
 If you have any questions, you can contact us by mail:: deepakkhatri.19c@gmail.com at any time convenient for you.
