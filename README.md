@@ -14,4 +14,7 @@ We have used the following scripts, fonts or other files as listed.
 - Google Fonts
 - Unsplash Images
 
+##License
+Licensed under the [MIT License](LICENSE).
+
 If you have any questions, you can contact us by mail:: deepakkhatri.19c@gmail.com at any time convenient for you.
